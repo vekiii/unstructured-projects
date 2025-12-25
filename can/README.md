@@ -1,28 +1,29 @@
-CAN Communication – C8051F500
+# CAN Communication – C8051F500
 
-This project demonstrates a basic implementation of CAN (Controller Area Network) communication using the C8051F500 development system. The project was developed and presented as a team effort, focusing on both theoretical understanding and practical application of CAN-based communication.
+## Overview
+This repository contains a simple CAN (Controller Area Network) communication project implemented using the **C8051F500** development system. The project demonstrates both the theoretical background and a practical implementation of CAN-based communication between two microcontroller boards.
 
-Project Overview
+## Project Description
+The project explains the purpose and advantages of CAN communication and demonstrates its operation through a basic two-node CAN network. Two C8051F500 boards are connected via a CAN bus, where each board is equipped with a **switch** and an **LED**.
 
-The project covers the following key aspects:
+Pressing the switch on one board sends a CAN message that turns on the LED on the other board, enabling **bidirectional communication**.
 
-Introduction to CAN communication
-Explanation of CAN usage, its advantages, and reasons why it is widely used in industrial and automotive systems.
+## System Functionality
+- CAN communication between two C8051F500 microcontrollers
+- Switch input on one board controls the LED output on the other board
+- Bidirectional message exchange
+- Real-time signal transmission over the CAN bus
 
-Theoretical background
-Description of the signal flow from the CAN transmitter through the CAN bus to the receiver and output devices.
+## Project Scope
+The project includes:
+- Explanation of CAN usage and its importance in embedded and industrial systems
+- Theoretical overview of signal flow from the CAN transmitter to the receiver
+- Practical hardware implementation using two C8051F500 development boards
 
-Practical implementation
-Two C8051F500 boards communicate with each other via CAN. A switch on one board controls an LED on the other board, and vice versa, demonstrating bidirectional communication over the CAN bus.
+## Technologies Used
+- **Microcontroller:** C8051F500
+- **Communication Protocol:** CAN (Controller Area Network)
+- **Development Environment:** Silicon Labs development tools
 
-Key Features
-
-CAN-based device-to-device communication
-
-Real-time signal transmission
-
-Simple and clear demonstration of CAN principles
-
-Suitable for educational and introductory CAN projects
-
-This project serves as a solid foundation for understanding CAN communication and its application in embedded and industrial systems.
+## Purpose
+This project is intended for **educational purposes** and serves as an introductory example of CAN communication in embedded systems.
